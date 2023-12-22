@@ -38,9 +38,9 @@ type CollectionProps = {
           })}
         </ul>
 
-        {totalPages > 1 && (
+        {/* {totalPages > 1 && (
           // <Pagination urlParamName={urlParamName} page={page} totalPages={totalPages} />
-        )}
+        )} */}
       </div>
 
     )  
