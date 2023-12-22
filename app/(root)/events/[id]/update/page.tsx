@@ -24,7 +24,7 @@ const UpdateEvent = async ({ params: { id } }: UpdateEventProps) => {
         <EventForm 
           type="Update" 
           event={event} 
-          eventId={event._id} 
+          eventId={event._id}
           userId={userId} 
         />
       </div>
